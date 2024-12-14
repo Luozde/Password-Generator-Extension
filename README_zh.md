@@ -4,7 +4,7 @@
 
 [English](./README.md) | 简体中文
 
-![Screenshot](./screenshots/main.png)
+<img src="./screenshots/main.png" alt="截图" width="640" />
 
 ## ✨ 特性
 
