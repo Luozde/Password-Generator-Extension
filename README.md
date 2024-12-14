@@ -4,7 +4,7 @@ A concise and powerful password generator Chrome extension with customizable gen
 
 English | [简体中文](./README_zh.md)
 
-<img src="./screenshots/main.png" alt="Screenshot" width="640" />
+<img src="./screenshots/main.png" alt="Screenshot" width="400" />
 
 ## ✨ Features
 
