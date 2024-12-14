@@ -1,0 +1,50 @@
+{
+  "extName": {
+    "message": "密码生成器"
+  },
+  "extDescription": {
+    "message": "一个强大的密码生成工具"
+  },
+  "passwordGenerator": {
+    "message": "密码生成器"
+  },
+  "passwordLength": {
+    "message": "密码长度"
+  },
+  "uppercase": {
+    "message": "大写字母 (A-Z)"
+  },
+  "lowercase": {
+    "message": "小写字母 (a-z)"
+  },
+  "numbers": {
+    "message": "数字 (0-9)"
+  },
+  "symbols": {
+    "message": "特殊符号 (!@#$%^&*)"
+  },
+  "minNumbers": {
+    "message": "数字最少个数"
+  },
+  "minSymbols": {
+    "message": "符号最少个数"
+  },
+  "generate": {
+    "message": "生成密码"
+  },
+  "copy": {
+    "message": "复制"
+  },
+  "history": {
+    "message": "历史记录"
+  },
+  "copiedToClipboard": {
+    "message": "密码已复制到剪贴板！"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "generatePasswordContextMenu": {
+    "message": "生成密码"
+  }
+} 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2 data-i18n="passwordGenerator">Password Generator</h2>
+    </div>
+    
+    <div class="settings">
+      <div class="setting-item">
+        <label data-i18n="passwordLength">Password Length:</label>
+        <input type="number" id="length" min="5" max="50" value="18">
+      </div>
+      
+      <div class="setting-item">
+        <label><input type="checkbox" id="uppercase" checked> <span data-i18n="uppercase">Uppercase Letters (A-Z)</span></label>
+      </div>
+      
+      <div class="setting-item">
+        <label><input type="checkbox" id="lowercase" checked> <span data-i18n="lowercase">Lowercase Letters (a-z)</span></label>
+      </div>
+      
+      <div class="setting-item">
+        <label><input type="checkbox" id="numbers" checked> <span data-i18n="numbers">Numbers (0-9)</span></label>
+      </div>
+      
+      <div class="setting-item">
+        <label><input type="checkbox" id="symbols" checked> <span data-i18n="symbols">Special Symbols (!@#$%^&*)</span></label>
+      </div>
+      
+      <div class="setting-item">
+        <label data-i18n="minNumbers">Minimum Numbers:</label>
+        <input type="number" id="minNumbers" min="0" max="10" value="1">
+      </div>
+      
+      <div class="setting-item">
+        <label data-i18n="minSymbols">Minimum Symbols:</label>
+        <input type="number" id="minSymbols" min="0" max="10" value="1">
+      </div>
+    </div>
+
+    <button id="generate" data-i18n="generate">Generate Password</button>
+    
+    <div class="result">
+      <input type="text" id="password" readonly>
+      <button id="copy" data-i18n="copy">Copy</button>
+    </div>
+    
+    <div class="history">
+      <h3 data-i18n="history">History</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

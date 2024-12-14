@@ -1,0 +1,50 @@
+{
+  "extName": {
+    "message": "Password Generator"
+  },
+  "extDescription": {
+    "message": "A powerful password generation tool"
+  },
+  "passwordGenerator": {
+    "message": "Password Generator"
+  },
+  "passwordLength": {
+    "message": "Password Length"
+  },
+  "uppercase": {
+    "message": "Uppercase Letters (A-Z)"
+  },
+  "lowercase": {
+    "message": "Lowercase Letters (a-z)"
+  },
+  "numbers": {
+    "message": "Numbers (0-9)"
+  },
+  "symbols": {
+    "message": "Special Symbols (!@#$%^&*)"
+  },
+  "minNumbers": {
+    "message": "Minimum Numbers"
+  },
+  "minSymbols": {
+    "message": "Minimum Symbols"
+  },
+  "generate": {
+    "message": "Generate Password"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "history": {
+    "message": "History"
+  },
+  "copiedToClipboard": {
+    "message": "Password copied to clipboard!"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "generatePasswordContextMenu": {
+    "message": "Generate Password"
+  }
+} 
